@@ -29,7 +29,7 @@ export default function Testimonials() {
             location: "",
             image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
             rating: 5,
-            text: "Langsung cocok. Awalnya niat kos aja, tapi dihitung-hitung sama saja, jadi akhirnya memutuskan beli rumah. Saat survei terus cek lokasi Sapphire Madani itu langsung cocok, karena maunya juga punya rumah yang udaranya segar. Tinggal di sini dari tahun 2019 sampai sekarang merasa tenang karena tidak bising juga.",
+            text: "Langsung cocok. Awalnya niat kos aja, tapi dihitung-hitung sama saja, jadi akhirnya memutuskan beli rumah. Saat survei terus cek lokasi Sapphire Madani Purwokerto itu langsung cocok, karena maunya juga punya rumah yang udaranya segar. Tinggal di sini dari tahun 2019 sampai sekarang merasa tenang karena tidak bising juga.",
         },
         
     ]

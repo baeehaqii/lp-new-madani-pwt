@@ -40,9 +40,9 @@ export default function About() {
 
             {/* Konten teks */}
             <div className="about-content">
-              <h2 className="about-title">Sapphire Madani</h2>
+              <h2 className="about-title">Sapphire Madani Purwokerto</h2>
               <p className="about-description">
-                Bayangkan tinggal di kawasan sejuk dengan udara pegunungan yang segar, tapi tetap dekat dengan pusat kota. Itulah yang ditawarkan Sapphire Madani, sebuah perumahan Purwokerto yang memadukan ketenangan alam dan kemudahan akses perkotaan dalam satu kawasan eksklusif di Jl. Raya Kebocoran, Dusun III, Karangsalam Kidul, Kedungbanteng, Banyumas. Berada di kaki Gunung Slamet dan hanya 9 menit dari Stasiun Purwokerto, Sapphire Madani dirancang sebagai perumahan Purwokerto yang menghadirkan keseimbangan hidup ideal: lingkungan hijau, lokasi strategis, dan nilai investasi yang terus berkembang. 
+                Bayangkan tinggal di kawasan sejuk dengan udara pegunungan yang segar, tapi tetap dekat dengan pusat kota. Itulah yang ditawarkan Sapphire Madani Purwokerto, sebuah perumahan Purwokerto yang memadukan ketenangan alam dan kemudahan akses perkotaan dalam satu kawasan eksklusif di Jl. Raya Kebocoran, Dusun III, Karangsalam Kidul, Kedungbanteng, Banyumas. Berada di kaki Gunung Slamet dan hanya 9 menit dari Stasiun Purwokerto, Sapphire Madani Purwokerto dirancang sebagai perumahan Purwokerto yang menghadirkan keseimbangan hidup ideal: lingkungan hijau, lokasi strategis, dan nilai investasi yang terus berkembang. 
               </p>
               <div>
                 {/* Ubah Link menjadi button untuk membuka modal */}
@@ -94,7 +94,7 @@ export default function About() {
               <X />
             </button>
             <div className="modal-content">
-              <h2 className="modal-title">Sapphire Madani</h2>
+              <h2 className="modal-title">Sapphire Madani Purwokerto</h2>
               <div className="modal-image">
                 <Image
                   src="https://res.cloudinary.com/dqobwse9q/image/upload/v1762291401/04_A_s0h6v3.avif"
@@ -106,7 +106,7 @@ export default function About() {
               </div>
               <div className="modal-description">
                 <p>
-                  Bayangkan tinggal di kawasan sejuk dengan udara pegunungan yang segar, tapi tetap dekat dengan pusat kota. Itulah yang ditawarkan Sapphire Madani, sebuah perumahan Purwokerto yang memadukan ketenangan alam dan kemudahan akses perkotaan dalam satu kawasan eksklusif di Jl. Raya Kebocoran, Dusun III, Karangsalam Kidul, Kedungbanteng, Banyumas. Berada di kaki Gunung Slamet dan hanya 9 menit dari Stasiun Purwokerto, Sapphire Madani dirancang sebagai perumahan Purwokerto yang menghadirkan keseimbangan hidup ideal: lingkungan hijau, lokasi strategis, dan nilai investasi yang terus berkembang. 
+                  Bayangkan tinggal di kawasan sejuk dengan udara pegunungan yang segar, tapi tetap dekat dengan pusat kota. Itulah yang ditawarkan Sapphire Madani Purwokerto, sebuah perumahan Purwokerto yang memadukan ketenangan alam dan kemudahan akses perkotaan dalam satu kawasan eksklusif di Jl. Raya Kebocoran, Dusun III, Karangsalam Kidul, Kedungbanteng, Banyumas. Berada di kaki Gunung Slamet dan hanya 9 menit dari Stasiun Purwokerto, Sapphire Madani Purwokerto dirancang sebagai perumahan Purwokerto yang menghadirkan keseimbangan hidup ideal: lingkungan hijau, lokasi strategis, dan nilai investasi yang terus berkembang. 
                 </p>
 
                 <h3 className="modal-subtitle">Keunggulan Lokasi</h3>

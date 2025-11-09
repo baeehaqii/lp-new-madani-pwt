@@ -19,7 +19,7 @@ export default function SitePlan() {
           <div className="siteplan-image-wrapper">
             <Image
               src="/siteplan.png"
-              alt="Site Plan Sapphire Serenity Slawi"
+              alt="Site Plan Sapphire Madani Purwokerto"
               width={1200}
               height={800}
               className="siteplan-image"
