@@ -1,6 +1,10 @@
 import { Phone, ClipboardList, Percent } from "lucide-react"
 import Link from "next/link"
 
+const nomorWhatsApp = "6281127010001";
+const pesan = "Halo, saya tertarik dengan properti Sapphire Madani Purwokerto";
+const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
+
 export default function CallToAction() {
   return (
     <section id="cta" className="cta-section">
@@ -14,7 +18,7 @@ export default function CallToAction() {
 
           <div className="cta-buttons">
             <Link 
-              href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Madani%20Purwokerto" 
+              href={linkWhatsApp} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="cta-button cta-button-primary"
@@ -24,7 +28,7 @@ export default function CallToAction() {
             </Link>
             <Link 
             //border cta
-              href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Madani%20Purwokerto" 
+              href={linkWhatsApp}
               target="_blank" 
               rel="noopener noreferrer" 
               className="cta-button cta-button-outline"
