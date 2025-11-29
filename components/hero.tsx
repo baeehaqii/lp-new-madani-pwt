@@ -17,18 +17,18 @@ export default function Hero() {
 
   const heroSlides = [
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1762291401/04_A_s0h6v3.avif",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1762291401/04_A_s0h6v3.avif",
       title: "Ketenangan Alam, Dekat dengan Segala Kemudahan",
       description:
         "Kesejukan dan akses strategis dalam satu kawasan.",
     },
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1762291406/01_A_kaw08d.avif",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1762291406/01_A_kaw08d.avif",
       title: "Kemudahan Akses untuk Setiap Aktivitas",
       description: "Dekat dengan fasilitas pendidikan, kesehatan, dan pusat kota Purwokerto.",
     },
     {
-      image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1762291403/02_B_mevzoh.avif",
+      image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1762291403/02_B_mevzoh.avif",
       title: "Nilai Investasi yang Terus Bertumbuh",
       description: "Hunian yang mengutamakan kenyamanan dan prospek masa depan.",
     },
