@@ -172,94 +172,94 @@ export default function Concepts() {
     document.body.style.overflow = "auto"
   }
 
-  return (
-    <section id="konsep" className="concepts-section">
-      <div className="container">
-        <h2 className="section-title">Konsep Desain Sapphire Madani Purwokerto</h2>
+  // return (
+  //   <section id="konsep" className="concepts-section">
+  //     <div className="container">
+  //       <h2 className="section-title">Konsep Desain Sapphire Madani Purwokerto</h2>
 
-        {/* Tab Navigation */}
-        <div className="concepts-tabs">
-          <button
-            className={`concepts-tab ${activeTab === "payment-schemes" ? "active" : ""}`}
-            onClick={() => setActiveTab("payment-schemes")}
-          >
-            Skema Pembelian
-          </button>
-          <button
-            className={`concepts-tab ${activeTab === "documents" ? "active" : ""}`}
-            onClick={() => setActiveTab("documents")}
-          >
-            Dokumen Serah Terima
-          </button>
-        </div>
+  //       {/* Tab Navigation */}
+  //       <div className="concepts-tabs">
+  //         <button
+  //           className={`concepts-tab ${activeTab === "payment-schemes" ? "active" : ""}`}
+  //           onClick={() => setActiveTab("payment-schemes")}
+  //         >
+  //           Skema Pembelian
+  //         </button>
+  //         <button
+  //           className={`concepts-tab ${activeTab === "documents" ? "active" : ""}`}
+  //           onClick={() => setActiveTab("documents")}
+  //         >
+  //           Dokumen Serah Terima
+  //         </button>
+  //       </div>
 
-        {/* Payment Schemes Tab */}
-        {activeTab === "payment-schemes" && (
-          <div className="payment-schemes-container">
-            <h3 className="payment-schemes-title">Skema Pembelian</h3>
-            <div className="payment-schemes-list">
-              {paymentSchemes.map((scheme) => (
-                <div key={scheme.id} className="payment-scheme-card">
-                  <div className="payment-scheme-header">
-                    <h4 className="payment-scheme-title">{scheme.title}</h4>
-                    {scheme.subtitle && <span className="payment-scheme-subtitle">{scheme.subtitle}</span>}
-                  </div>
-                  <ul className="payment-scheme-items">
-                    {scheme.items.map((item, index) => (
-                      <li key={index} className="payment-scheme-item">
-                        <span className="payment-scheme-bullet">•</span>
-                        <span className="payment-scheme-text">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+  //       {/* Payment Schemes Tab */}
+  //       {activeTab === "payment-schemes" && (
+  //         <div className="payment-schemes-container">
+  //           <h3 className="payment-schemes-title">Skema Pembelian</h3>
+  //           <div className="payment-schemes-list">
+  //             {paymentSchemes.map((scheme) => (
+  //               <div key={scheme.id} className="payment-scheme-card">
+  //                 <div className="payment-scheme-header">
+  //                   <h4 className="payment-scheme-title">{scheme.title}</h4>
+  //                   {scheme.subtitle && <span className="payment-scheme-subtitle">{scheme.subtitle}</span>}
+  //                 </div>
+  //                 <ul className="payment-scheme-items">
+  //                   {scheme.items.map((item, index) => (
+  //                     <li key={index} className="payment-scheme-item">
+  //                       <span className="payment-scheme-bullet">•</span>
+  //                       <span className="payment-scheme-text">{item}</span>
+  //                     </li>
+  //                   ))}
+  //                 </ul>
+  //               </div>
+  //             ))}
+  //           </div>
+  //         </div>
+  //       )}
 
-        {/* Documents Tab */}
-        {activeTab === "documents" && (
-          <div className="documents-container">
-            <h3 className="documents-title">Dokumen Serah Terima</h3>
-            <div className="documents-list">
-              {documents.map((doc) => (
-                <div key={doc.id} className="document-card">
-                  <div className="document-icon">
-                    {doc.completed && <CheckCircle size={32} className="document-check" />}
-                  </div>
-                  <div className="document-content">
-                    <h4 className="document-title">{doc.title}</h4>
-                  </div>
-                  <div className="document-status">
-                    {doc.completed && <span className="document-completed">✓</span>}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
+  //       {/* Documents Tab */}
+  //       {activeTab === "documents" && (
+  //         <div className="documents-container">
+  //           <h3 className="documents-title">Dokumen Serah Terima</h3>
+  //           <div className="documents-list">
+  //             {documents.map((doc) => (
+  //               <div key={doc.id} className="document-card">
+  //                 <div className="document-icon">
+  //                   {doc.completed && <CheckCircle size={32} className="document-check" />}
+  //                 </div>
+  //                 <div className="document-content">
+  //                   <h4 className="document-title">{doc.title}</h4>
+  //                 </div>
+  //                 <div className="document-status">
+  //                   {doc.completed && <span className="document-completed">✓</span>}
+  //                 </div>
+  //               </div>
+  //             ))}
+  //           </div>
+  //         </div>
+  //       )}
+  //     </div>
 
-      {/* Modal */}
-      {selectedConcept && (
-        <div className="concept-modal-overlay" onClick={closeModal}>
-          <div className="concept-modal-container" onClick={(e) => e.stopPropagation()}>
-            <button className="concept-modal-close" onClick={closeModal}>
-              <X size={24} />
-            </button>
-            <div className="concept-modal-content">
-              <Image
-                src={selectedConcept.image || "/placeholder.svg"}
-                alt={selectedConcept.alt}
-                width={1200}
-                height={900}
-                className="concept-modal-image"
-              />
-            </div>
-          </div>
-        </div>
-      )}
-    </section>
-  )
+  //     {/* Modal */}
+  //     {selectedConcept && (
+  //       <div className="concept-modal-overlay" onClick={closeModal}>
+  //         <div className="concept-modal-container" onClick={(e) => e.stopPropagation()}>
+  //           <button className="concept-modal-close" onClick={closeModal}>
+  //             <X size={24} />
+  //           </button>
+  //           <div className="concept-modal-content">
+  //             <Image
+  //               src={selectedConcept.image || "/placeholder.svg"}
+  //               alt={selectedConcept.alt}
+  //               width={1200}
+  //               height={900}
+  //               className="concept-modal-image"
+  //             />
+  //           </div>
+  //         </div>
+  //       </div>
+  //     )}
+  //   </section>
+  // )
 }
